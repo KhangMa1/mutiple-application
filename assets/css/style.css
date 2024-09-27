@@ -45,7 +45,7 @@ header {
   align-items: center;
 }
 
-.logo-search{
+.logo-search {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -65,13 +65,13 @@ header {
   height: 48px;
 }
 
-.search-container{
+.search-container {
   height: 100%;
   display: flex;
   align-items: center;
   background-color: #1c1f26;
   padding: 4px 12px;
-  border: 1px solid #1c1f26 ;
+  border: 1px solid #1c1f26;
   border-radius: 16px;
 }
 
@@ -95,11 +95,11 @@ header {
   border-radius: 8px;
 }
 
-.search-item span{
+.search-item span {
   margin: 0px 4px;
 }
 
-.info{
+.info {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,12 +115,12 @@ header {
   justify-content: center;
   border: 1px solid #1c1f26;
 }
-.button-dau-cong svg{
+.button-dau-cong svg {
   font-size: 20px;
-  color:  #000;
+  color: #000;
 }
 
-.button-chuong{
+.button-chuong {
   height: 40px;
   width: 40px;
   background-color: #1c1f26;
@@ -130,13 +130,41 @@ header {
   border: 1px solid #fff;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-left: 8px;
 }
 
-
 .button-chuong svg {
   font-size: 30px;
+}
+
+.info__noti-avatar {
+  height: 40px;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a8b3cf;
+  border: 1px solid #a8b3cf;
+  border-radius: 12px;
+  margin-left: 8px;
+  padding: 0 8px
+}
+
+.info__noti-avatar button{
+  background-color: transparent;
+}
+
+.info__noti-avatar img {
+  height: 32px;
+  margin-left: 8px;
+  border-radius: 4px;
+}
+
+.info__noti-avatar .avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* CSS CHO MAIN  */
